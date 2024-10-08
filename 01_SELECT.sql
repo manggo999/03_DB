@@ -41,9 +41,13 @@ WHERE 1 ='1';
 SELECT EMP_ID + 10 FROM EMPLOYEE;
 
 ----------------------------------------------------------
--- 날짜 타입 조회
+-- 날짜(DATE) 타입 조회
 
-SELECT EMP_NAME, HIRE_DATE, 
+-- EMPLOYEE 테이블에서 이름, 입사일, 오늘 날짜 조회
+SELECT EMP_NAME, HIRE_DATE, SYSDATE FROM EMPLOYEE;
+
+-- 2024-10-08 11:09:19.000
+-- SYSDATE : 시스템상의 현재 시간(날짜)를 나타내는 상수
 
 SELECT  SYSDATE  FROM DUAL;
 -- DUAL(DUmmy tAbLe) 테이블 : 가짜 테이블(임시 조회용 테이블)
