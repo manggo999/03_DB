@@ -188,7 +188,7 @@ SELECT  EMP_ID, EMP_NAME, PHONE
 FROM EMPLOYEE
 WHERE PHONE NOT LIKE '010%';
 
--- EMPLOYEE 테이블에사 EMAIL의 _앞에 글자가 세글자인 사원만
+-- EMPLOYEE 테이블에서 EMAIL의 _앞에 글자가 세글자인 사원만
 -- 이름, 이메일 조회
 SELECT *FROM EMPLOYEE;
 
