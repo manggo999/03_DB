@@ -82,8 +82,7 @@ SELECT EMP_NAME, SALARY, '원 입니다' FROM EMPLOYEE;
 
 -------------------------------------------------------------------
 
-
--- DISTINCT : 조회 시 컬러멩 포함된 중복값을 한번만 표기
+-- DISTINCT : 조회 시 컬럼에 포함된 중복값을 한번만 표기
 -- 주의사항 1) DISTINCT 구문은 SELECT 마다 딱 한번씩만 작성가능
 -- 주의사항 2) DISTINCT 구문은 SELECT 제일 앞에 작성되어야 한다.
 
@@ -190,7 +189,7 @@ WHERE PHONE NOT LIKE '010%';
 
 -- EMPLOYEE 테이블에서 EMAIL의 _앞에 글자가 세글자인 사원만
 -- 이름, 이메일 조회
-SELECT *FROM EMPLOYEE;
+SELECT * FROM EMPLOYEE;
 
 -- ESCAPE 문자
 -- ESCAPE 문자 뒤에 작성된 _는 일반문자로 탈출한다는 뜻
